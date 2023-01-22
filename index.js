@@ -81,6 +81,12 @@ const addEmployee = () => {
 
     return inquirer.prompt ([
         {
+            type: 'list',
+            name: 'role',
+            message: "Please select the employee's role.",
+            choices: ['Engineer', 'Intern']
+        },
+        {
             type: 'input',
             name: 'name',
             message: "Please enter the employee's name.",
@@ -180,7 +186,7 @@ const addEmployee = () => {
 
 // function to gen html file using file system
 const writeFile = data => {
-    fs.writeFile('./dist/index.html', data, err => {
+    fs.writeFile('./index.html', data, err => {
         if (err) {
             console.log(err);
             return;
