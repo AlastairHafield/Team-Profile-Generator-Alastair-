@@ -15,6 +15,8 @@
   ## Usage:
   Using 'node .' or 'node index.js' command in the terminal the user will be asked a series of prompts,
   please answer all prompts and then a HTML file will be generated and written to the index.html file. 
+  Please see video for usage;
+  https://drive.google.com/file/d/1CuXVrpL0HyeuduJH9svUvMnGczHwmZQK/view
   ## Contributors:
   AlastairHatfield
   ## Testing:
