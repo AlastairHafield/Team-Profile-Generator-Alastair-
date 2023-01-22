@@ -1,4 +1,4 @@
-// import employee constructor
+// Import employee constructor
 const Employee = require('../lib/Employee');
 
 // creating employee constructor with necessary properties

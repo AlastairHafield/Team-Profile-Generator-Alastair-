@@ -1,4 +1,4 @@
-//import Engineer constructor
+//Import Engineer constructor
 const Engineer = require('../lib/engineer');
 
 // creating engineer constructor with necessary properties

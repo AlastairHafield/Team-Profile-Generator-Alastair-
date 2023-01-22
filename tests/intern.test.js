@@ -1,4 +1,4 @@
-// import intern constructor
+// import Intern constructor
 const Intern = require('../lib/Intern');
 
 // creating intern constructor with necessary properties
