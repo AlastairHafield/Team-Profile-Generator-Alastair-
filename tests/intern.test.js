@@ -2,7 +2,7 @@
 const Intern = require('../lib/Intern');
 
 // creating intern constructor with necessary properties
-Test('creates an intern object', () => {
+test('creates an intern object', () => {
     const intern = new Intern('John', 1, 'johnsmith@gmail.com', 'Univesity of Birmingham');
     expect(intern.name).toEqual(expect.any(String));
     expect(intern.id).toEqual(expect.any(Number));
@@ -11,7 +11,7 @@ Test('creates an intern object', () => {
 });
 
 // testing methods
-Test('gets intern school', () => {
+test('gets intern school', () => {
     const intern = new Intern('John', 1, 'johnsmith@gmail.com', 'Univesity of Birmingham');
     expect(intern.getSchool()).toEqual(expect.stringContaining(intern.school.toString()));
 });

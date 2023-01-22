@@ -2,7 +2,7 @@
 const Engineer = require('../lib/engineer');
 
 // creating engineer constructor with necessary properties
-Test('creates an engineer object', () => {
+test('creates an engineer object', () => {
     const engineer = new Engineer('John', 1, 'johnsmith@gmail.com', 'johnsmith');  
     expect(engineer.name).toEqual(expect.any(String));
     expect(engineer.id).toEqual(expect.any(Number));
@@ -11,7 +11,7 @@ Test('creates an engineer object', () => {
 });
 
 // testing methods
-Test('gets engineer github', () => {
+test('gets engineer github', () => {
     const engineer = new Engineer('John', 1, 'johnsmith@gmail.com', 'johnsmith');
     expect(engineer.getGithub()).toEqual(expect.stringContaining(engineer.github.toString()));
 });
