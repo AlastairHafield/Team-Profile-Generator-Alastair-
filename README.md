@@ -1,4 +1,5 @@
 # Team Profile Generator
+  ![ExampleScreenshot](/assets/teamviewer.jpg)
   ## Table of Contents 
   - [Description](#description)
   - [Installation](#installation)

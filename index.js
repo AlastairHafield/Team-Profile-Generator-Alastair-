@@ -37,6 +37,19 @@ const addManager = () => {
         },
         {
             type: 'input',
+            name: 'id',
+            message: 'Please enter the manager ID',
+            validate: nameInput => {
+                if (isNaN(nameInput)) {
+                    console.log('please enter the ID')
+                    return false;
+                } else {
+                    return true;
+                }
+            }
+        },
+        {
+            type: 'input',
             name: 'email',
             message: "Please enter the manager's email.",
             validate: email => {
